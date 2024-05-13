@@ -52,7 +52,6 @@ RWI0 = quat2rotm(grt_quat(1,:));
 
 for i=1:N
     grt_RI0(:,:,i) = inv(RWI0)*quat2rotm(grt_quat(i,:)); 
-%     RI0(:,:,i) = inv(RI0(:,:,1))*RI0(:,:,i); 
 end
 eul_true = rotm2eul(grt_RI0);
 
