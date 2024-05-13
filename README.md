@@ -2,7 +2,7 @@
 This repo contains an implementation of a conventional Monocular Visual Odomtery (MVO) and an enhanced MVO referred to as Fast MVO (FMVO). MVO refers to the process of the incrementally estimating the position and orientation of a single camera moving in the 3D space. 
 
 # How to use the code
-To obtain the exact same results that are presented below, please run the function `plotBothResults.m`. To run algorithms separately, please refer to their respective sections. At the end of the two following sections, it is explained how to run the corresponding algorithm.
+To obtain the exact same results as presented below, please run the function `plotBothResults.m`. To run algorithms separately, please refer to their respective sections. At the end of the two following sections, it is explained how to run the corresponding algorithm.
 
 # Conventional MVO
 There are several approaches to MVO, among which I have focused on "2D-2D motion estimation". In this approach, The following steps are implemented for each two consecutive images:
