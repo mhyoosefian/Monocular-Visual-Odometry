@@ -38,3 +38,6 @@ the time each iteration takes for both MVO and FMVO are shown below. Also, the a
 A comparison of the performance of the two algorithms is provided in the Table below. The first six rows in this table are median of the RMSE results. The last row
 is the median run-time of each iteration of the algorithms.
 <img src="/images/table.png" width="50%" height="50%">
+
+# Citation
+If you use the code in your research work, please cite the following paper.
