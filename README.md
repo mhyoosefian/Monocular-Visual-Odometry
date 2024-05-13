@@ -18,6 +18,23 @@ In the fast MVO, instead of extracting features in every two images, features ar
 # Results
 The conventional MVO and the Fast MVO are tested on the [EuRoC mav dataset](https://projects.asl.ethz.ch/datasets/doku.php?id=kmavvisualinertialdatasets), the sequence MH-01.
 
-The MVO and FMVO results in estimating x-y and x-z trajectories is shown below.
+## Position and orientation 
+The MVO and FMVO results of estimating x-y and x-z trajectories and orientation are shown below.
+<img src="/images/position.png" width="50%" height="50%">
+<img src="/images/orientation.png" width="50%" height="50%">
 
-<img src="/images/trajectory.png" width="50%" height="50%">
+## RMSE of position and orientation
+The RMSE of the estimations are plotted below.
+
+<img src="/images/positionRMSE.png" width="50%" height="50%">
+<img src="/images/orientationRMSE.png" width="50%" height="50%">
+
+## Run time
+the time each iteration takes for both MVO and FMVO are shown below. Also, the accumulative run-time is plotted.
+<img src="/images/runtime.png" width="50%" height="50%">
+<img src="/images/accRuntime.png" width="50%" height="50%">
+
+## Comparison
+A comparison of the performance of the two algorithms is provided in the Table below. The first six rows in this table are median of the RMSE results. The last row
+is the median run-time of each iteration of the algorithms.
+<img src="/images/table.png" width="50%" height="50%">
