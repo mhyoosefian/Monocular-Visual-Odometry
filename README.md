@@ -47,4 +47,12 @@ is the median run-time of each iteration of the algorithms.
 <img src="/images/table.png" width="50%" height="50%">
 
 # Citation
-If you use the code in your research work, please cite the following paper.
+If you use the code in your research work, please cite the following paper
+```
+@article{abdollahi2022improved,
+  title={An Improved Multi-State Constraint Kalman Filter for Visual-Inertial Odometry},
+  author={Abdollahi, MR and Pourtakdoust, Seid H and Nooshabadi, MH and Pishkenari, Hossein Nejat},
+  journal={arXiv preprint arXiv:2210.08117},
+  year={2022}
+}
+```
