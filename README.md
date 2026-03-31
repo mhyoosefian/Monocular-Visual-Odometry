@@ -49,10 +49,14 @@ is the median run-time of each iteration of the algorithms.
 # Citation
 If you use the code in your research work, please cite the following paper, as the idea behind the FMVO was developed in this paper. 
 ```
-@article{abdollahi2022improved,
-  title={An Improved Multi-State Constraint Kalman Filter for Visual-Inertial Odometry},
-  author={Abdollahi, MR and Pourtakdoust, Seid H and Nooshabadi, MH and Pishkenari, Hossein Nejat},
-  journal={arXiv preprint arXiv:2210.08117},
-  year={2022}
+@article{abdollahi2024improved,
+  title={An improved multi-state constraint Kalman filter for visual-inertial odometry},
+  author={Abdollahi, MR and Pourtakdoust, Seid H and Nooshabadi, MH Yoosefian and Pishkenari, Hossein Nejat},
+  journal={Journal of the Franklin Institute},
+  volume={361},
+  number={15},
+  pages={107130},
+  year={2024},
+  publisher={Elsevier}
 }
 ```
